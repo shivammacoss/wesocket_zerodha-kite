@@ -8,7 +8,7 @@ const { KiteConnect } = require("kiteconnect");
 
 const createZerodhaTickerBridge = require("./sockets/zerodhaTicker");
 
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 7001;
 const ALLOWED_ORIGINS = (process.env.ALLOWED_ORIGINS || "*")
   .split(",")
   .map((s) => s.trim())
